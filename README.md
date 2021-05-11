@@ -1,8 +1,9 @@
-# TruffleDeploy
+# TruffleContractDeploy & ConnectingContractViaReact
 
 * **[Pre-requisites](#pre-requisites)**
 * **[Setup](#setup)**
 * **[Deploying](#deploying)**
+* **[Connect-React](#connectReact)**
 
 ## Getting Started
 
@@ -76,12 +77,15 @@ module.exports = function(deployer) {
 ```
 
 
-### Compiling and Deploying
+### 3] Compiling and Deploying
 ```sh
 $>truffle compile
 $>truffle migrate --network development
 $>truffle migrate
 ```
 
-
+##Connect-React
+###  4]  Connecting React to the contract
+We now have a Contract deployed with truffle and a blockchain.
+We can call a contract from Javascript.
 
