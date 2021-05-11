@@ -89,3 +89,13 @@ $>truffle migrate
 We now have a Contract deployed with truffle and a blockchain.
 We can call a contract from Javascript.
 
+
+
+Da truffle per interagire con il contratto
+truffle console
+truffle(development) > myContract.deployed()
+truffle(development) > let myContractInstance = await myContract.deployed()
+
+ora ho l’instanza e posso invocare i metodi
+truffle(development) > myContractInstance.testMetodo()
+
