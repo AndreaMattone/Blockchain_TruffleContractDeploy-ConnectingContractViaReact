@@ -83,19 +83,21 @@ $>truffle compile
 $>truffle migrate --network development
 $>truffle migrate
 ```
+Save the contract address, you will need it if you want to call it!
 
-##Connect-React
-###  4]  Connecting React to the contract
+##Connect
+###  4]  Connecting to the contract
 We now have a Contract deployed with truffle and a blockchain.
 We can call a contract from Javascript.
 
 
 
-Da truffle per interagire con il contratto
-truffle console
-truffle(development) > myContract.deployed()
-truffle(development) > let myContractInstance = await myContract.deployed()
+You can interact with the contract with truffle console.
+```sh
+myetghpoa0$>truffle console
+myetghpoa0$> truffle(development) > myContract.deployed()
+myetghpoa0$> truffle(development) > let myContractInstance = await myContract.deployed()
+myetghpoa0$> truffle(development) > myContractInstance.method()
+```
 
-ora ho l’instanza e posso invocare i metodi
-truffle(development) > myContractInstance.testMetodo()
 
