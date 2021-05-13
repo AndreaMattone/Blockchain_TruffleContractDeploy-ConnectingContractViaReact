@@ -27,11 +27,12 @@ npm install -g ganache-cli
 via Ganache Suite 
 <https://www.trufflesuite.com/ganache>
 
+* Launch the blockchain with geth or ganache
+
 
 ## Setup
 
 ###  1]  Enviroment
-* Launch the blockchain
 
 Create a directory where we are can deploy our smart contract and initialize truffle
 ```sh
