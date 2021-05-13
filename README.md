@@ -1,4 +1,4 @@
-# TruffleContractDeploy & ConnectingContractViaReact
+# TruffleContractDeploy & ConnectingContract
 
 * **[Pre-requisites](#pre-requisites)**
 * **[Setup](#setup)**
