@@ -1,4 +1,4 @@
-# TruffleContractDeploy & ConnectingContract
+# Truffle Contract Deploy On Private Blockchain
 
 * **[Pre-requisites](#pre-requisites)**
 * **[Setup](#setup)**
